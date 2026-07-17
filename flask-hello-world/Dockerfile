@@ -9,7 +9,7 @@ COPY flask-hello-world/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy application code
-COPY app.py .
+COPY flask-hello-world/app.py .
 
 # Expose the port Flask runs on
 EXPOSE 5000
